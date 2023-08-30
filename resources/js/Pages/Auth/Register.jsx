@@ -98,7 +98,7 @@ export default function Register () {
                                 </div>
                             </div>
                             <div className="grid space-y-[14px] mt-[30px]">
-                                <PrimaryButton type="submit" disabled={processing}>
+                                <PrimaryButton type="submit" variant="primary" processing={processing}>
                                     <span className="text-base font-semibold">
                                         Sign Up
                                     </span>
