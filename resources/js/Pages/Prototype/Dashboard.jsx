@@ -25,7 +25,7 @@ export default function Dashboard () {
                 <Flickity className="gap-[30px]" options={flickityOptions}>
 
                     {[1,2,3,4].map(i => 
-                        <FeaturedMovie slug={`the-batman-in-love`} name={`The Batman In Love ${i}`} category={`Comedy`} thumbnail={`https://img.freepik.com/premium-vector/cute-random-doodle-paper-background_6997-598.jpg?w=826`} key={i} rating={1 + i}/>
+                        <FeaturedMovie key={i} slug={`the-batman-in-love`} name={`The Batman In Love ${i}`} category={`Comedy`} thumbnail={`https://img.freepik.com/premium-vector/cute-random-doodle-paper-background_6997-598.jpg?w=826`} rating={1 + i}/>
                     )}
 
                 </Flickity>
@@ -34,7 +34,7 @@ export default function Dashboard () {
                 <div className="font-semibold text-[22px] text-black mb-4">Browse</div>
                 <Flickity className="gap-[30px]" options={flickityOptions}>
                    {[1,2,3,4,5,6].map(i => 
-                        <MovieCard key={i} name={`The Batman In Love ${i}`} category={`Comedy`} thumbnail={`https://img.freepik.com/premium-vector/cute-random-doodle-paper-background_6997-598.jpg?w=826`}/>
+                        <MovieCard key={i} slug={`the-batman-in-love`} name={`The Batman In Love ${i}`} category={`Comedy`} thumbnail={`https://img.freepik.com/premium-vector/cute-random-doodle-paper-background_6997-598.jpg?w=826`}/>
                     )}
                 </Flickity>
             </div>
