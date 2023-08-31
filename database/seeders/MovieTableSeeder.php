@@ -25,7 +25,7 @@ class MovieTableSeeder extends Seeder
             ],
             [
                 'name' => 'The Spiderman',
-                'slug' => 'the-batman',
+                'slug' => 'the-spiderman',
                 'category' => 'Marvel',
                 'video_url' => 'https://youtu.be/shW9i6k8cB0?si=aDm8N9H6n08dFFxw',
                 'thumbnail' => 'https://awsimages.detik.net.id/community/media/visual/2019/07/09/e3e4f888-6094-49b0-9234-e6762cf69800_43.jpeg',
@@ -34,7 +34,7 @@ class MovieTableSeeder extends Seeder
             ],
             [
                 'name' => 'The Spiderman II',
-                'slug' => 'the-batman-ii',
+                'slug' => 'the-spiderman-ii',
                 'category' => 'Marvel',
                 'video_url' => 'https://youtu.be/shW9i6k8cB0?si=aDm8N9H6n08dFFxw',
                 'thumbnail' => 'https://awsimages.detik.net.id/community/media/visual/2019/07/09/e3e4f888-6094-49b0-9234-e6762cf69800_43.jpeg',
